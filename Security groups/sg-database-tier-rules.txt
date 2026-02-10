@@ -1,0 +1,8 @@
+Inbound rules
+TCP 3306 - Only app tier may access the database
+SSH (22) - Ensures admin access only via bastion
+
+Outbound rules
+HTTPS (443) - Allows OS updates
+
+CIDR

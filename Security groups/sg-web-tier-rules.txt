@@ -1,0 +1,11 @@
+Inbound rules
+HTTP (80) - Allows public HTTP traffic
+HTTPS (443) - Allows public web traffic
+SSH (22) - Ensures admin access only via bastion
+
+Outbound rules
+TCP 8080 - Allows forwarding requests to backend application
+HTTPS (443) - Allows OS updates and outbound API calls
+
+CIDR
+0.0.0.0/0 - Required for public web access

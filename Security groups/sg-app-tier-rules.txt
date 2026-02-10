@@ -1,0 +1,9 @@
+Inbound rules
+TCP 8080 - Accepts app traffic from the web tier only
+SSH (22) - Ensures admin access only via bastion
+
+Outbound rules
+TCP 3306 - Allows database access
+HTTPS (443) - Allows OS updates
+
+CIDR

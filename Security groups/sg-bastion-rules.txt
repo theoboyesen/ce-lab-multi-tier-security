@@ -1,0 +1,10 @@
+Inbound rules
+SSH (22) - This restricts admin access to a single trusted IP which minimises exposure to the internet.
+
+Outbound rules
+SSH (22) - Allows bastion to initiate SSH connections to app servers
+SSH (22) - Allows bastion to initiate SSH connections to web servers
+SSH (22) - Allows bastion to initiate SSH connections to database servers
+
+CIDR
+/32 - limits access to one IP (Least privilege)
